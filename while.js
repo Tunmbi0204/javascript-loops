@@ -5,10 +5,7 @@ let text = "";
 
 
 let m = 0;
-while (m < scores.length)
-// while(m++);
-// for (let m = 0; m < scores.length; m++)
-{
+while (m < scores.length){
        m++;
     let punishment = scores[m] - 5;
     let manipulated = punishment + scores[m] / 2;
